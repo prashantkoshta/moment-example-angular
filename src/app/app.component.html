@@ -1,0 +1,20 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<div class="date_tabel_row">
+  <div class="item th">Time Stamp Format</div>
+  <div class="item th">Expression in Java</div>
+  <div class="item th">Value</div>
+  <div class="item th">Expression in JS</div>
+  <div class="item th">Value</div>
+</div>
+
+<div class="date_tabel_row" *ngFor="let item of listOfDateTime">
+  <div class="item">{{item.format}}</div>
+  <div class="item">{{item.expInJava}}</div>
+  <div class="item">{{item.valInJava}}</div>
+  <div class="item">{{item.expInJs}}</div>
+  <div class="item">{{item.valInJs}}</div>
+</div>
