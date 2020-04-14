@@ -7,7 +7,7 @@ import moment from 'moment';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent implements OnInit {
-  name = 'Angular';
+  name = 'moment';
   dateTime = null;
 
   listOfDateTime = [
