@@ -53,6 +53,13 @@ export class AppComponent implements OnInit {
       'expInJs': 'YYYY-MM-DD HH:mm:ss Z',
       'valInJs': ''
     },
+    {
+      'format': 'yyyy-MM-ddTHH:mm:ss.SSSZZZZ',
+      'expInJava': 'yyyy-MM-dd HH:mm:ss.SSSZZZZ',
+      'valInJava': '2108-08-20T18:30:45.774+01:30',
+      'expInJs': 'YYYY-MM-DD HH:mm:ss',
+      'valInJs': ''
+    }
   ]
 
   ngOnInit() {
