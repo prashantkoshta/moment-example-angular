@@ -59,6 +59,13 @@ export class AppComponent implements OnInit {
       'valInJava': '2108-08-20T18:30:45.774+01:30',
       'expInJs': 'YYYY-MM-DD HH:mm:ss',
       'valInJs': ''
+    },
+    {
+      'format': 'yyyy-MM-ddTHH:mm:ss.Z',
+      'expInJava': 'yyyy-MM-ddTHH:mm:ssZ',
+      'valInJava': '2108-08-20T23:30:45Z',
+      'expInJs': 'YYYY-MM-DD HH:mm:ssZ',
+      'valInJs': ''
     }
   ]
 
