@@ -9,6 +9,7 @@ import moment from 'moment';
 export class AppComponent implements OnInit {
   name = 'moment';
   dateTime = null;
+  dateTest = null;
 
   listOfDateTime = [
     {
@@ -75,5 +76,9 @@ export class AppComponent implements OnInit {
       const valInJs = moment(item.valInJava, item.expInJs).format(item.expInJs);
       return {...item, valInJs};
     });
+
+
+    let m = moment('2020-05-04 00:00:00 -03:00', 'YYYY-MM-DD HH:mm:ss Z').toDate();
+    this.dateTest = moment(m).format('DD MMM YYYY');
   }
 }
